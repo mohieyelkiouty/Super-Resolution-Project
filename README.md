@@ -42,6 +42,13 @@ The model was evaluated using standard industry metrics to ensure structural int
 *Note: These results confirm that the model significantly outperforms traditional interpolation methods in maintaining structural details.*
 
 ---
+## 🖼️ Visual Comparison
+Here is a side-by-side comparison between the Low-Resolution input and the Super-Resolution output:
+
+| Input (Low-Res) | Output (Super-Resolution) |
+| :---: | :---: |
+| ![Before](samples/low_res.jpg) | ![After](samples/high_res.jpg) |
+---
 
 ## 📁 Project Structure
 
