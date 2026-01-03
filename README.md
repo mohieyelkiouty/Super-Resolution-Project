@@ -47,10 +47,11 @@ The model was evaluated using standard industry metrics to ensure structural int
 
 * **`data_preprocessing.ipynb`**: The heavy-lifting notebook. It handles YCbCr color space conversion, smart patch extraction, and data serialization.
 * **`enhance-model.ipynb`**: The core engine. Contains the model architecture, training loops, loss visualization, and the final inference tester.
+* **`model.pt`**: The pre-trained weights of the final optimized model, ready for immediate inference.
 
 ---
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 1. **Clone the repository:**
 ```bash
@@ -66,10 +67,10 @@ pip install -r requirements.txt
 ```
 
 
-3. **Run Preprocessing:**
-Execute `data_preprocessing.ipynb` to prepare the high-info patches.
-4. **Inference:**
-Use the `enhance-model.ipynb` to load the weights and transform your Low-Res images into High-Definition results.
+3. **Run Preprocessing (Optional):**
+Execute `data_preprocessing.ipynb` if you want to prepare your own high-info patches from a custom dataset.
+4. **Inference (Quick Start):**
+Use the `enhance-model.ipynb` to load the **`model.pt`** weights and transform your Low-Res images into High-Definition results instantly without the need for retraining.
 
 ---
 
